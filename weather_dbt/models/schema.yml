@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_weather
+    columns:
+      - name: id
+        tests: [not_null, unique]
+      - name: temperature_c
+        tests: [not_null]
+
+  - name: daily_weather
+    columns:
+      - name: day
+        tests: [not_null]
+      - name: location_name
+        tests: [not_null]

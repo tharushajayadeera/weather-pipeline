@@ -1,0 +1,149 @@
+[0m18:41:23.404373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC6E09C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC6AF75E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC70027D90>]}
+
+
+============================== 18:41:23.429297 | 8eaf4cd3-b9aa-4e1f-9ba3-5abd8a2fc667 ==============================
+[0m18:41:23.429297 [info ] [MainThread]: Running with dbt=1.10.11
+[0m18:41:23.430511 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt init weather_dbt', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\tharu\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m18:41:23.913161 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\tharu\.dbt
+[0m18:41:23.933698 [debug] [MainThread]: Starter project path: C:\Users\tharu\Documents\Data Engineering\weather-pipeline\.venv\Lib\site-packages\dbt\include\starter_project
+[0m18:41:23.987707 [info ] [MainThread]: 
+Your new dbt project "weather_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:41:23.989730 [info ] [MainThread]: Setting up your profile.
+[0m18:45:56.788515 [info ] [MainThread]: Profile weather_dbt written to C:\Users\tharu\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:45:56.791194 [debug] [MainThread]: Command `dbt init` succeeded at 18:45:56.790894 after 273.52 seconds
+[0m18:45:56.791987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC700B7490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC701A5D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BC6EECD7B0>]}
+[0m18:45:56.792816 [debug] [MainThread]: Flushing usage events
+[0m18:45:58.748980 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:04:17.293085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002328BB5C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023288A2DE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002328DA27D90>]}
+
+
+============================== 19:04:17.298191 | c0bfb42f-eebe-45bb-8e47-c3c3410f43b4 ==============================
+[0m19:04:17.298191 [info ] [MainThread]: Running with dbt=1.10.11
+[0m19:04:17.299062 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt init weather_dbt', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\tharu\\.dbt'}
+[0m19:04:17.331050 [debug] [MainThread]: Starter project path: C:\Users\tharu\Documents\Data Engineering\weather-pipeline\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:04:17.353720 [info ] [MainThread]: 
+Your new dbt project "weather_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:04:17.354557 [info ] [MainThread]: Setting up your profile.
+[0m19:05:22.714898 [info ] [MainThread]: Profile weather_dbt written to C:\Users\tharu\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:05:22.717597 [debug] [MainThread]: Command `dbt init` succeeded at 19:05:22.717259 after 65.54 seconds
+[0m19:05:22.718382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002328DAB7230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002328DAC6450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002328D98D7B0>]}
+[0m19:05:22.719220 [debug] [MainThread]: Flushing usage events
+[0m19:05:24.575279 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:09:49.357921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243DA85C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243D76ADE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243DC727D90>]}
+
+
+============================== 19:09:49.368583 | ee5826de-962f-4f9d-bff6-9e5f7cc7ed4a ==============================
+[0m19:09:49.368583 [info ] [MainThread]: Running with dbt=1.10.11
+[0m19:09:49.370271 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\tharu\\Documents\\Data Engineering\\weather-pipeline', 'static_parser': 'True', 'write_json': 'True'}
+[0m19:09:49.406328 [info ] [MainThread]: dbt version: 1.10.11
+[0m19:09:49.407062 [info ] [MainThread]: python version: 3.13.7
+[0m19:09:49.407623 [info ] [MainThread]: python path: C:\Users\tharu\Documents\Data Engineering\weather-pipeline\.venv\Scripts\python.exe
+[0m19:09:49.408142 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:09:49.469124 [info ] [MainThread]: Using profiles dir at C:\Users\tharu\Documents\Data Engineering\weather-pipeline
+[0m19:09:49.469798 [info ] [MainThread]: Using profiles.yml file at C:\Users\tharu\Documents\Data Engineering\weather-pipeline\profiles.yml
+[0m19:09:49.470270 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\tharu\Documents\Data Engineering\weather-pipeline\dbt_project.yml
+[0m19:09:49.471237 [info ] [MainThread]: adapter type: postgres
+[0m19:09:49.471727 [info ] [MainThread]: adapter version: 1.9.1
+[0m19:09:49.472235 [info ] [MainThread]: Configuration:
+[0m19:09:49.472724 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:09:49.473178 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:09:49.473639 [info ] [MainThread]: Required dependencies:
+[0m19:09:49.474098 [debug] [MainThread]: Executing "git --help"
+[0m19:09:49.481086 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m19:09:49.481806 [info ] [MainThread]: Connection:
+[0m19:09:49.482384 [info ] [MainThread]:   host: weatherdb
+[0m19:09:49.482797 [info ] [MainThread]:   port: 5432
+[0m19:09:49.483215 [info ] [MainThread]:   user: postgres
+[0m19:09:49.483649 [info ] [MainThread]:   database: weatherdb
+[0m19:09:49.484144 [info ] [MainThread]:   schema: analytics
+[0m19:09:49.484555 [info ] [MainThread]:   connect_timeout: 10
+[0m19:09:49.485003 [info ] [MainThread]:   role: None
+[0m19:09:49.485451 [info ] [MainThread]:   search_path: None
+[0m19:09:49.486118 [info ] [MainThread]:   keepalives_idle: 0
+[0m19:09:49.486613 [info ] [MainThread]:   sslmode: None
+[0m19:09:49.487131 [info ] [MainThread]:   sslcert: None
+[0m19:09:49.487671 [info ] [MainThread]:   sslkey: None
+[0m19:09:49.488271 [info ] [MainThread]:   sslrootcert: None
+[0m19:09:49.488823 [info ] [MainThread]:   application_name: dbt
+[0m19:09:49.489260 [info ] [MainThread]:   retries: 1
+[0m19:09:49.489922 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m19:09:49.916881 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m19:09:50.010204 [debug] [MainThread]: Using postgres connection "debug"
+[0m19:09:50.010608 [debug] [MainThread]: On debug: select 1 as id
+[0m19:09:50.010946 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:09:52.712170 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "weatherdb" to address: Name or service not known
+
+[0m19:09:54.987400 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m19:09:54.989215 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m19:09:54.990665 [debug] [MainThread]: On debug: No close available on handle
+[0m19:09:54.991982 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:09:54.994381 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m19:09:54.996424 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\tharu\Documents\Data Engineering\weather-pipeline\dbt_project.yml> not found
+
+[0m19:09:54.998451 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m19:09:55.000508 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  could not translate host name "weatherdb" to address: Name or service not known
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:09:55.006337 [debug] [MainThread]: Command `dbt debug` failed at 19:09:55.005778 after 5.79 seconds
+[0m19:09:55.007785 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:09:55.009255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243DCBD1810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243DC961A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243DC8808D0>]}
+[0m19:09:55.010864 [debug] [MainThread]: Flushing usage events
+[0m19:09:56.857359 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:22:33.919313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CBD2F5C050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CBCFDEDE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CBD3E27D90>]}
+
+
+============================== 15:22:33.939111 | a40569e4-4793-4307-af05-2260a1c3be3c ==============================
+[0m15:22:33.939111 [info ] [MainThread]: Running with dbt=1.10.11
+[0m15:22:33.940021 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'log_path': 'logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\tharu\\Documents\\Data Engineering\\weather-pipeline', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True'}
+[0m15:22:33.940811 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\tharu\Documents\Data Engineering\weather-pipeline\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:22:33.942485 [debug] [MainThread]: Command `dbt run` failed at 15:22:33.942255 after 0.25 seconds
+[0m15:22:33.943106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CBD3D07820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CBD3D2A210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CBD3D8C9E0>]}
+[0m15:22:33.943974 [debug] [MainThread]: Flushing usage events
+[0m15:22:35.833671 [debug] [MainThread]: An error was encountered while trying to flush usage events
