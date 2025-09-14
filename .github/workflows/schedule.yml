@@ -1,0 +1,38 @@
+name: Weather Pipeline
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # runs hourly (adjust for API limits)
+  workflow_dispatch:       # allows manual trigger
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests sqlalchemy psycopg2-binary dbt-core dbt-postgres
+
+      - name: Run ingestion script
+        env:
+          WEATHERSTACK_API_KEY: ${{ secrets.WEATHERSTACK_API_KEY }}
+          DB_URL: ${{ secrets.DB_URL }}
+        run: python ingest/ingest_weather.py
+
+      - name: Run dbt
+        env:
+          DB_URL: ${{ secrets.DB_URL }}
+        run: |
+          cd weather_dbt
+          dbt deps
+          dbt run
+          dbt test
