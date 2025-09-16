@@ -33,6 +33,4 @@ jobs:
           DB_URL: ${{ secrets.DB_URL }}
         run: |
           cd weather_dbt
-          dbt deps
           dbt run
-          dbt test
